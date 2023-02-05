@@ -1,0 +1,186 @@
+.section__magazine-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .section__magazine-single-projects {
+    border: 2px solid var(--color-tem);
+    position: relative;
+    overflow: hidden;
+    height: 881px;
+    width: 42.7rem;
+    margin: 1rem 0 1rem 0;
+  }
+  
+  .section__magazine-single-projects img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .section__magazine-contents {
+    width: 100%;
+    height: 100%;
+    background: #1c0800dd;
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: translateY(100%);
+    transition: all 250ms linear;
+    p {
+      margin-top: 20px;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+  }
+  
+  .section__magazine-single-projects:hover .section__magazine-contents {
+    transform: translateY(0);
+  }
+  .section__magazine-icon {
+    position: absolute;
+    left: 15px;
+    bottom: 40px;
+  }
+  .section__magazine-icon a {
+    font-size: 30px;
+    margin-bottom: 3px;
+    color: #fff;
+    display: block;
+  }
+  
+  .section__magazine-contents .desc {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .section__magazine-stack {
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    color: #fff;
+    margin-top: 70px;
+    bottom: 10px;
+  }
+  
+  // @media screen and (min-width: 2000px) {
+  //   .section__magazine-wrapper {
+  //     display: grid;
+  //     grid-template-columns: repeat(4, 1fr);
+  //   }
+  
+  //   .section__magazine-icon a {
+  //     font-size: 18px;
+  //     margin-bottom: 5px;
+  //   }
+  //   .section__magazine-stack {
+  //     h2 {
+  //       margin-bottom: 0.7rem;
+  //     }
+  //     margin-top: 50px;
+  //   }
+  // }
+  
+  // @media screen and (max-width: 1900px) {
+  //   .section__projects-wrapper {
+  //     display: grid;
+  //     grid-template-columns: repeat(4, 1fr);
+  //   }
+  
+  //   .section__projects-icon a {
+  //     font-size: 25px;
+  //     margin-bottom: 3px;
+  //   }
+  //   .section__projects-stack {
+  //     margin-top: 40px;
+  //   }
+  // }
+  
+  @media screen and (max-width: 1024px) {
+    .section__magazine-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .section__magazine-icon a {
+      font-size: 20px;
+      margin-bottom: 3px;
+    }
+    .section__magazine-stack {
+      margin-top: 40px;
+    }
+    .section__magazine-single-projects {
+      height: 577px;
+      width: 27.7rem;
+      
+    }
+  }
+  
+  // @media screen and (max-width: 980px) {
+  //   .section__projects-wrapper {
+  //     display: grid;
+  //     grid-template-columns: repeat(2, 1fr);
+  //   }
+  
+  //   .section__projects-icon a {
+  //     font-size: 15px;
+  //     margin-bottom: 3px;
+  //   }
+  // }
+  
+  @media screen and (max-width: 768px) {
+    .section__magazine-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      
+    }
+  
+    .section__magazine-stack {
+      margin-top: 50px;
+    }
+    .section__magazine-single-projects {
+      width: 20.7rem;
+      height: 429px;
+    }
+  }
+
+  
+  @media screen and (max-width: 450px) {
+    .section__magazine-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0rem;
+    }
+    .section__magazine-contents {
+      p {
+        margin-top: 20px;
+        font-size: 0.875rem;
+      }
+    }
+    .section__magazine-single-projects {
+      width: 10.98rem;
+      height: 14rem;
+    }
+    .section__magazine-single-projects img {
+      width: 100%;
+      height: 100%;
+      // object-fit: cover;
+    }
+    .section__magazine-icon {
+      left: 10px;
+      bottom: 30px;
+    }
+    .section__magazine-icon a {
+      font-size: 15px;
+      margin-bottom: 3px;
+    }
+    .section__magazine-stack {
+      color: #fff;
+      margin-top: 40px;
+      bottom: 10px;
+    }
+  }
+  
