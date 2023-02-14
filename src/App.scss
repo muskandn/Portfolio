@@ -16,7 +16,7 @@
   --color-tem: #cc6c06;
   --second-primary-color: #000;
   --anchor-color: #adabab;
-  --sideBar-bg: #222222;
+  --sideBar-bg: #1e1c1c;
   --box-shadow: 0 0 15px 0px #0808084c;
   --light-bg: #ddd;
   --typical-color: rgb(0, 0, 0);
@@ -132,7 +132,8 @@ a {
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
+  
   .section__padding {
     padding: 0 3rem;
   }

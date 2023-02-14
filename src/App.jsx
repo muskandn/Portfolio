@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Sidebar from "./components/sidebar/Sidebar";
+import Sidebar from "./components/sidebar/Sidebar";
 import ThemeTemplate from "./components/ThemingTemplate/ThemeTemplates";
 import {
   Home,
@@ -18,7 +18,7 @@ import './App.scss';
 const App = () => {
   return (
     <BrowserRouter>
-    {/* <Sidebar /> */}
+    <Sidebar />
     <ThemeTemplate/>
       <Routes>
         <Route path="/" element={<Home />} />

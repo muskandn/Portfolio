@@ -18,8 +18,8 @@ const Sidebar = () => {
             <img src={logo} alt="About image" className="sidebar__logo" />
             <p id="Name" className='switch__color'>Muskan Debnath</p>
             </Link>
-           <div>
-           <ul className={isMobile?"side-link01":"side-link"}>
+            <div className='menubar'>
+            <ul className={isMobile?"side-link01":"side-link"}>
             {sideBarMenu.map((link, index) => {
               const { text, icon, url } = link
               return (
@@ -37,7 +37,7 @@ const Sidebar = () => {
               )
             })}
           </ul>
-           </div>
+            </div>
             
             <div className={isMobile?"social-icon01":"social-icon"}>
                 {socialIcons.map((icons,index)=>{

@@ -26,7 +26,7 @@ const Header = ({url}) => {
   })
   return (
     <>
-    <Sidebar />
+    {/* <Sidebar /> */}
     <canvas id="canvas" />
     <div className="container">
     <section className='section-1 header__container'>
