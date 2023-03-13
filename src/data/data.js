@@ -38,7 +38,7 @@ import {
   SiTrello
 } from 'react-icons/si'
 
-import { GrGithub, GrTwitter, GrInstagram } from 'react-icons/gr'
+import { GrGithub, GrTwitter, GrInstagram, GrDribbble } from 'react-icons/gr'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3, DiMongodb } from 'react-icons/di'
 import { IoLogoJavascript, IoLogoGameControllerB } from 'react-icons/io'
@@ -107,13 +107,13 @@ const socialIcons = [
     icon: <FiLinkedin className="icon switch__color" />,
     url: 'https://www.linkedin.com/in/muskandn/',
   },
-  // {
-  //   icon: <FiYoutube className="icon switch__color" />,
-  //   url: 'https://www.youtube.com/c/AlmarexWebDev',
-  // },
+  {
+    icon: <GrDribbble className="icon switch__color" />,
+    url: 'https://dribbble.com/muskandn',
+  },
   {
     icon: <GrTwitter className="icon switch__color" />,
-    url: 'https://twitter.com/muskan_debnath',
+    url: 'https://twitter.com/muskandn',
   },
   {
     icon: <GrInstagram className="icon switch__color" />,

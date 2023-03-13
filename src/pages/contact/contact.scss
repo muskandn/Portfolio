@@ -1,5 +1,5 @@
 .contact-section {
-  padding: 20rem 0.8rem 0 12.2rem;
+  padding: 2rem 0.8rem 0 12.2rem;
   margin-top: 100px;
   position: relative;
   z-index: 1;
@@ -22,7 +22,7 @@
   bottom: 0;
 }
 .social-icon-contact .icon {
-  font-size: 15px;
+  font-size: 30px;
   margin-right: 15px;
   transition: 0.2s linear;
   color: var(--color-tem);
@@ -182,7 +182,7 @@ button.contact-button:hover .message-deliver {
 }
 .google-map iframe{
   width:53.9rem;
-  height: 33.35rem;
+  height: 38.5rem;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -294,9 +294,9 @@ textarea:-webkit-autofill:focus {
     margin: 0;
     max-width: none;
   }
-  .contact__heading {
-    font-size: 2.3rem;
-  }
+  // .contact__heading {
+  //   font-size: 2.3rem;
+  // }
   .contact-form p {
     font-size: 1rem;
     margin-bottom: 1.5rem;
@@ -315,10 +315,10 @@ textarea:-webkit-autofill:focus {
   .google-map{
     padding-bottom: 0;
   }
-  .google-map iframe{
-    width:43.5rem;
-    height: 30rem;
-  }
+  // .google-map iframe{
+  //   width:43.5rem;
+  //   height: 30rem;
+  // }
 
 
 @media screen and (max-width: 450px) {

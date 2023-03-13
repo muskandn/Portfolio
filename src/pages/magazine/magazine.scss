@@ -79,6 +79,9 @@
   }
   
   @media screen and (max-width: 1024px) {
+    .section__magazine{
+      margin: 40px 0;
+    }
     .section__magazine-title {
       font-size: 2.5rem;
     }
@@ -88,11 +91,12 @@
   }
   
   @media screen and (max-width: 768px) {
+    
     .section__magazine-title {
       font-size: 2.3rem;
     }
     .section__magazine{
-      margin: 0;
+      margin: 120px 0;
       padding-left: 2rem;
     }
     .section__magazine-title {
@@ -101,6 +105,9 @@
   }
   
   @media screen and (max-width: 450px) {
+    .section__magazine{
+      margin: 120px 0;
+    }
     .section__magazine-title {
       font-size: 2rem;
       margin-bottom: 2rem;

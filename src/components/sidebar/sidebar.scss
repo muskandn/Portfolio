@@ -53,10 +53,10 @@
     // fill: #cc6c06;
   }
   // the classname that wraps all the element in the sidebar
-  .aside-wrapper {
+  .aside-wrapper01 {
     width: 80%;
-    min-height: 90vh;
-    overflow-y: auto;
+    // min-height: 90vh;
+    // overflow-y: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -195,6 +195,9 @@
   
     // social media icons
     .social-icon {
+      display: none;
+    }
+    .social-icon01 {
       display: none;
     }
     

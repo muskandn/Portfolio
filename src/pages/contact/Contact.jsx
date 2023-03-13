@@ -28,15 +28,18 @@ const Contact=()=>{
   };
   return(
     <>
+    
     <section className="contact-section " >
-      <div className="fake-big">@</div>
       
+    <div className="fake-big">Contact</div>
         <div className="totalPage">
 
         <div>
         <div>
-          <h2 className="contact__heading">
-            <Blast letterClass={letterClass} arrayStr={["G","e","t"," ","i","n"," ","T","o","u","c","h"]} indexLetter={22}/>
+          <h2 aria-label="contact me" className="contact__heading">
+            <Blast letterClass={letterClass} 
+            arrayStr={["G","e","t"," ","i","n"," ","T","o","u","c","h"]} 
+            indexLetter={22}/>
             
           </h2>
           
@@ -44,7 +47,8 @@ const Contact=()=>{
             <p style={{maxWidth:"700px"}}>
             I’m interested in freelance opportunities and I am always ready
                 to build projects at anytime, if you have any job offer for me,
-                you could use the form below to react out to me.
+                you could use the form below to react out to me or if you've got a project in mind, why not get in touch.
+                Let's work together.
             </p>
           </Fade>
         </div>

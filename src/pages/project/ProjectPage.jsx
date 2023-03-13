@@ -2,6 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade'
 import { projects } from './index'
 import { Project } from '../../components'
+import { ProjectG } from '../../components'
 import { Blast } from '../../components'
 import './projectpage.scss'
 
@@ -14,6 +15,9 @@ const ProjectPage = () => {
   }, [])
 
   return (
+    <>
+    
+    
     <section className="section__projects">
     <div className="fake-big">Projects</div>
         <h2 aria-label="My projects" className="section__projects-title">
@@ -35,11 +39,11 @@ const ProjectPage = () => {
         </div>
         <div className="section__projects-wrapper">
         {projects.map((project, index) => {
-        return <Project {...project} key={index} 
+        return <ProjectG {...project} key={index} 
         />})}
         </div>
     </section>
-    
+    </>
   )
 }
 

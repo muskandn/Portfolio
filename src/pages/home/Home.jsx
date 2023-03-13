@@ -5,6 +5,8 @@ import Contact from '../contact/Contact'
 import Skills from '../skills/Skills'
 import ProjectPage from '../project/ProjectPage'
 import MagaPage from '../magazine/Magazine'
+import "./home.scss"
+
 const Home = () => {
   return (
     <>
@@ -12,7 +14,8 @@ const Home = () => {
     <section className='section-about'>
       <About/>
     </section>
-    <section className='section-about'>
+    
+    <section className='section-skills'>
       <Skills/>
     </section>
     <ProjectPage/>

@@ -1,11 +1,11 @@
 .section-about {
   position: relative;
-  // margin-top: 55rem;
+  margin-top: 55rem;
 }
 .section-about-wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  padding:55rem 4rem 13.8rem 12.2rem;
+  padding:5rem 4rem 13.8rem 12.2rem;
   
 }
 .section-about-description {
@@ -67,6 +67,12 @@ width: 100%;
 
 
 @media screen and (min-width: 2000px) {
+  .section-about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:5rem 4rem 3.8rem 12.2rem;
+    
+  }
   .section-about-description {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -135,13 +141,13 @@ width: 100%;
 
 @media screen and (max-width: 768px) {
   .section-about-wrapper {
-    padding:43rem 2rem 10rem 2rem;
+    padding:43rem 2rem 3rem 2rem;
   }
   .section-about-description h2 {
     font-size: 2.3rem;
   }
   .about-description-skills {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .section-about-description {
     grid-template-columns: 1fr;
@@ -159,10 +165,11 @@ width: 100%;
     width: 35%;
     margin: 0rem 0 4rem;
     left: 3rem;
-    
+    top: 6.5rem;
 }
+
 .social-icon-about {
-  top:52rem;
+  top:7.5rem;
   right: 4rem;
   position: absolute;
   display: grid;
@@ -184,8 +191,11 @@ width: 100%;
   .both{
     display: block;
   }
+  .section-about {
+    margin-top: 35rem;
+  }
   .social-icon-about {
-    top:37rem;
+    top:7rem;
     right: 2rem;
 
   }
@@ -197,7 +207,7 @@ width: 100%;
     width: 45%;
     position: absolute;
     right: 4rem;
-    top: 35rem;
+    top: 6rem;
     left: 2rem;
   }
   .section-about-wrapper {

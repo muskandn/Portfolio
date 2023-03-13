@@ -21,10 +21,11 @@ const About = ()=>{
 
     return (
       <>
-        <Reveal>
-          <div className="fake-big" style={{paddingTop:'49rem'}}>About</div>
+        
+          <div className="section-about-wrapper" style={{paddingTop:'1rem'}} >
+          <Reveal>
+          <div className="fake-big" >About</div>
         </Reveal>
-          <div className="section-about-wrapper" >
             <article className="section-about-description">
               <div className="both">
               <div className="pad">
@@ -38,28 +39,23 @@ const About = ()=>{
                 <div  className="descpt" style={{maxWidth:"700px"}}>
                 <Fade bottom>
                   <p>
-                    I’m an ambitious Front-End Developer who's passionate about
-                    coding and looking for a role in the established IT company
-                    with the opportunity to work with the latest technologies on
-                    challenging and diverse projects.
+                  I'm a Computer Science Undergrad student at Indian Institute of Information Technology and Management, Gwalior.
                   </p>
                 </Fade>
                 <Fade bottom>
                   <p >
-                    I’m from Ivory Coast but currently living in Nigeria. I’m a
-                    freelancer who loves building cool UI effects, dynamic
-                    webpages with amazing animations and creating intuitive,
-                    dynamic user experiences. I also love to reach out to new
-                    opportunities accross the globe that will enhance my skills
-                    and get the opporutinity to work with other programmers as
-                    well
+                  I am a passionate Full Stack Developer who loves to explore new technologies and build scalable applications. 
+                  I love Automating tasks.I m also a Graphic Designer and an UI/UX designer. I love to work on  Adobe PhotoShop.
                   </p>
                 </Fade>
                 <Fade bottom>
                   <p>
-                    If I could say one of the most interesting things about me,
-                    it's the fact that I'm always ready for any challenges that
-                    comes to my way. Here's my CV below for more details.
+                  In love with Open Source.
+                  </p>
+                </Fade>
+                <Fade bottom>
+                  <p>
+                  If I need to define myself in one sentence that would be a tech-obsessed and an Artist!!!
                   </p>
                 </Fade>
                 </div>
@@ -90,7 +86,7 @@ const About = ()=>{
                 </Fade>
                 
               </div>
-              <div style={{paddingTop:"6rem"}}>
+              <div >
                 <div className="about__me about__container"  >
                     <div className="about__me-image">
                         <img src={ME} alt="About image" />

@@ -10,19 +10,9 @@ const MagazinePages = (props) => {
         <img src={imgUrl} alt="" />
         <div className="section__magazine-contents">
           <p>{name}</p>
-          <p className="desc">{desc}</p>
-          <div className="section__magazine-stack">
-            <h2>Built with</h2>
-            <span>{stack}</span>
-          </div>
-          <div className="section__magazine-icon">
-            <a href={gitHubUrl.url} className="switch__color">
-              {gitHubUrl.icon}
-            </a>
-            <a href={website.url} className="switch__color">
-              {website.icon}
-            </a>
-          </div>
+          {/* <p className="desc">{desc}</p> */}
+          
+          
         </div>
       </section>
     </Fade>

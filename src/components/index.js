@@ -8,4 +8,5 @@ export { default as SinglePost } from './signlePost/SinglePost'
 export { default as Blogs } from './blogCompo/Blogs'
 export {default as MagazinePages} from './magazine/MagazinePages'
 export { default as Project } from './projects/Project'
+export {default as ProjectG} from "./projects_onlyGithub/Project"
 export { default as Map } from './map/Map'
