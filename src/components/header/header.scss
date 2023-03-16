@@ -85,13 +85,13 @@ canvas {
   // }
   .text-desc {
     position: absolute;
-    top: 35.22rem;
+    top: 34.77rem;
     left: 21rem;
-    font-size: 2.7em;
+    font-size: 3.1rem;
     margin: 30px 0;
     letter-spacing: 2px;
-    height: 30px;
-    line-height: 30px;
+    height: 40px;
+    line-height: 40px;
     overflow: hidden;
     color: #817f7f;
     font-weight: 400;
@@ -106,12 +106,12 @@ canvas {
   }
   @keyframes slide{
     100%{
-      top: -120px;
+      top: -160px;
     }
   }
   .text-desc li span{
     position: relative;
-    line-height: 30px;
+    line-height: 40px;
   }
 
   .text-desc li span::after{
