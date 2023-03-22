@@ -5,7 +5,7 @@
 .section-about-wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  padding:5rem 4rem 13.8rem 12.2rem;
+  padding:8rem 4rem 13.8rem 12.2rem;
   
 }
 .section-about-description {
@@ -104,7 +104,7 @@ width: 100%;
 
 @media screen and (max-width: 1024px) {
   .section-about-wrapper {
-    padding:55rem 4rem 13.8rem 2rem;
+    padding:10rem 4rem 13.8rem 2rem;
   }
 
   .section-about-description {
@@ -141,7 +141,7 @@ width: 100%;
 
 @media screen and (max-width: 768px) {
   .section-about-wrapper {
-    padding:43rem 2rem 3rem 2rem;
+    padding:7rem 2rem 3rem 2rem;
   }
   .section-about-description h2 {
     font-size: 2.3rem;
@@ -165,11 +165,11 @@ width: 100%;
     width: 35%;
     margin: 0rem 0 4rem;
     left: 3rem;
-    top: 6.5rem;
+    top: 12.5rem;
 }
 
 .social-icon-about {
-  top:7.5rem;
+  top:13.5rem;
   right: 4rem;
   position: absolute;
   display: grid;
@@ -195,7 +195,7 @@ width: 100%;
     margin-top: 35rem;
   }
   .social-icon-about {
-    top:7rem;
+    top:13rem;
     right: 2rem;
 
   }
@@ -207,11 +207,11 @@ width: 100%;
     width: 45%;
     position: absolute;
     right: 4rem;
-    top: 6rem;
+    top: 12rem;
     left: 2rem;
   }
   .section-about-wrapper {
-    padding:30rem 2rem 4rem 2rem;
+    padding:7rem 2rem 4rem 2rem;
   }
   .descpt{
     padding-top: 17rem;

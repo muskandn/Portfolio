@@ -22,7 +22,7 @@ const About = ()=>{
     return (
       <>
         
-          <div className="section-about-wrapper" style={{paddingTop:'1rem'}} >
+          <div className="section-about-wrapper"  >
           <Reveal>
           <div className="fake-big" >About</div>
         </Reveal>
@@ -45,7 +45,7 @@ const About = ()=>{
                 <Fade bottom>
                   <p >
                   I am a passionate Full Stack Developer who loves to explore new technologies and build scalable applications. 
-                  I love Automating tasks.I m also a Graphic Designer and an UI/UX designer. I love to work on  Adobe PhotoShop.
+                  I love Automating tasks. I am also a Graphic Designer and an UI/UX designer. I love to work on Adobe PhotoShop.
                   </p>
                 </Fade>
                 <Fade bottom>

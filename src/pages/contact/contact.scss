@@ -350,8 +350,24 @@ textarea:-webkit-autofill:focus {
     padding-bottom: 0;
   }
   .google-map iframe{
-    width:23.9rem;
-    height: 20rem;
+    width:23.3rem;
+    height: 25rem;
+  }
+  .social-icon-contact {
+    right: 100px;
+    bottom: 0;
+  }
+  .social-icon-contact .icon {
+    font-size: 20px;
+
+  }
+
+}
+
+@media screen and (max-width: 412px) {
+  .google-map iframe{
+    width:22.1rem;
+    height: 25rem;
   }
   .social-icon-contact {
     right: 100px;
