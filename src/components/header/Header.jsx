@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import Fade from "react-reveal/Fade"
-import Muskan from "../../assets/images/Resume_Muskan_Debnath.pdf"
+import Muskan from "../../assets/images/MuskanDebnath__Resume.pdf"
 import Blast from '../BlastAnimation/Blast'
 import './header.scss'
 import logo from '../../assets/M_logo.png'
